@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Ibadah</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sholat_txt">Waktu shalat adalah rentang waktu yang di tentukan Allah untuk dapat melaksanakan shalat.
+
+Macam-macam shalat wajib / shalat fardhu :
+
+Sesuai dengan firman Allah SWT dalam surat an-nisa ayat 103 yang berbunyi :
+إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا
+
+
+Yang artinya : Sesungguhnya shalat atas orang-orang mumin kewajiban yang telah di tentukan waktunya.
+
+Dalil di atas menunjukan bahwa shalat itu adalah kewajiban bagi orang yang beriman dan telah di tentukan waktu pelaksanaannya.
+
+Dalil shalat wajib / shalat fardhu surat al-isro ayat 78 yang berbunyi :
+
+أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا
+
+Yang artinya :
+
+        "Dirikanlah shalat dari sesudah matahari tergelincir (shalat zuhur dan shalat ashar) sampai gelap malam (shalat magrib dan shalat isya') dan dirikanlah shalat subuh. Sesungguhnya shalat subuh itu di saksikan (oleh malaikat).
+
+1. Shalat subuh
+Shalat subuh adalah shalat yang di lakuakan dari terbitnya fajar shodiq sampai terbitnya matahari.
+
+2. Shalat zuhur
+Shalat zuhur adalah shalat yang di lakukan saat matahari tergelincir ke arah barat sampai datang waktu ashar.
+
+3. Shalat ashar
+Shalat ashar adalah shalat yang di lakukan saat bayang-bayang suatu benda sama panjang dengan benda tersebut / bayang-bayang suatu benda melebihi benda tersebut sampai datangnya waktu magrib.
+4. Shalat magrib
+Shalat magrib adalah shalat yang di lakukan saat matahari terbenam sampai datangnya waktu isya.
+
+5. Shalat isya
+Shalat isya adalah shalat yang di lakukan setelang menghilangnya mega merah di ufuk barat sampai pertengahan malam (sama dengan waktu zuhur pada hari itu).
+
+Macam-macam shalat sunnah :
+
+1. Shalat sunnah tahajud
+Shalat sunnah tahajud adalah shalat yang di lakukan di 1/3 malam terakhir (sekitar jam 2-4) berjumlah 11 rokaat. Setiap 2 rokaat 1x salam dan 3 rokaat untuk witir.
+
+2. Shalat sunnah duha
+Shalat sunnah duha adalah shalat yang di lakukan ketika matahari baru naik (sekitar jam 7-10) berjumlah 12 rokaat, dan setiap 2 rokaat 1x salam.
+
+3. Shalat sunnah rawatib
+Shalat sunnah rawatib adalah shalat sunnah yang mendampingi shalat wajib berjumlah 2 rokaat.
+•	Shalat sunnah rawatib qobliyah subuh (sebelum shalat subuh).
+•	Shalat sunnah rawatib qobliyah zuhur (sebelum shalat zuhur).
+•	Shalat sunnah rawatib badiyah zuhur (sesudah shalat zuhur).
+•	Shalat sunnah rawatib badiyah magrib (sesudah shalat bagrib).
+•	Shalat sunnah rawatib badiyah isya' (sesudah shalat isya').
+
+4. Shalat sunnah tahiyatul masjid
+Shalat sunnah tahiyatul masjid adalah shalat sunnah yang di lakukan sebelum duduk di mesjid berjumlah 2 rokaat.
+
+
+5. Shalat sunnah syukur wudhu
+Shalat sunna syukrul wudhu adalah shalat sunnah yang di lakukan sehabis berwudhu berjumlah 2 rokaat.
+
+6. Shalat sunnah hari raya
+Shalat sunnah id (hari raya) adalah shalat sunnah yang di lakukan pada hari raya idul fitri dan idul adha. berjumlah 2 rokaat, rokaat pertama 7x takbir rokaat kedua 5x takbir. Di lakukan di lapangan.
+
+7. shalat sunnah gerhana
+Shalat sunnah gerhana adalah shalat sunnah yang di lakukan saat gerhana matahari / gerhana bulan, berjumlah 2 rokaat.
+
+8. Shalat sunnah istikhoro
+shalat sunnah istikharo adalah shalat yang di lakukan apabila kita kesulitan memilih sesuatu, berjumlah 2 rokaat. Contoh kasus seperti memilih istri/suami, memilih pekerjaan, Dll.
+
+9. Shalat sunnah istisqo
+Shalat sunnah istisqo adalah shalat sunnah yang di lakukan untuk meminta hujan (pada saat mengalami kekeringan). berjumlah 2 rokaat di lakukan di lapangan.
+</string>
+    <string name="puasa_txt">
+        1. Puasa Wajib
+a.	Puasa Ramadhan
+Sebentar lagi Ramadhan nih! Di bulan Ramadhan seluruh umat muslim wajib berpuasa selama satu bulan penuh.  Kewajiban itu tertuang dalam firman Allah SWT yang berbunyi “Wahai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang sebelum kamu agar kamu bertaqwa” (Q.S. Al-Baqoroh;183-184)
+b.	Puasa Qodha
+
+Bagi kalian, Prelovers yang pernah meninggalkan atau tidak mengerjakan puasa wajib karena beberapa halangan, maka Prelovers wajib menggantinya dengan puasa Qodha. Allah SWT berfirman yang artinya “(yaitu) dalam beberapa hari yang tertentu. Maka barangsiapa diantara kamu ada yang sakit atau dalam perjalanan (lalu ia berbuka), maka (wajiblah baginya berpuasa) sebanyak hari yang ditinggalkannya itu pada hari-hari yang lain. Dan wajib bagi orang-orang yang berat menjalankannya (jika mereka tidak berpuasa) membayar fidyah, yaitu :memberi makan seorang miskin. Barangsiapa yang dengan kerelaan hati mengerjakan kebajikan, maka itulah yang lebih baik baginya. Dan berpuasa lebih baik bagimu jika kamu mengetahui” (Q.S. Al-Baqoroh:184)
+
+c.	Puasa Kafarat
+Puasa kafarat adalah puasa yang dilakukan untuk menebus dosa akibat melakukan dosa besar yaitu membunuh yang dijelaskan melalui firman Allah SWT dalam surah An-Nisaa’ ayat 92 dan dosa melanggar sumpah yang difirmankan Allah dalam surah Al-Maidah ayat 89.
+d.	Puasa Nadzar
+Puasa nadzar adalah puasa yang wajib dilaksanakan sesuai nadzarnya. Misalnya Prelovers bernadzar ingin berpuasa 3 hari jika mendapat nilai 100, apabila nilai 100 benar-benar bisa didapatkan, maka Prelovers harus berpuasa 3 hari sesuai nadzar diawal. Rasulullah bersabda “Apabila seseorang bernadzar menjalankan puasa, maka nadzar itu harus dipenuhinya” (H.R. Bukhori)
+
+
+
+2.	Puasa Sunnah
+
+a.	Puasa enam hari di bulan Syawal
+Puasa enam hari di bulan Syawal adalah puasa yang dilaksanakan setelah hari raya Idul Fitri. Keutamaannya adalah seperti berpuasa satu tahun (H.R. Muslim)
+b.	Puasa sepuluh hari pertama di bulan Dzulhijjah
+Puasa sepuluh hari pertama di bulan Dzulhijjah adalah puasa yang dilaksanakan sebelum Idul Adha yaitu 10 Dzulhijjah. Ketika memasuki 10 Dzulhujjah maka diharamkan berpuasa.
+c.	Puasa Hari Arofah
+Puasa Hari Arofah adalah puasa pada hari atau tanggal 9 Dzulhijjah. Keutamannya adalah akan dihapuskan dosa-dosa tahun lalu dan yang akan datang (H.R. Muslim)
+d.	Puasa Muharram
+Puasa Muharram yaitu puasa pada bulan Muharram terutama pada hari Assyuro’. Puasa di bulan ini adalah yang paling utama setelah puasa di bulan Ramadhan (H.R. Bukhori)
+e.	Puasa Assyuro
+Puasa Assyuro’ (10 Muharram). Nabi Muhammad SAW memerintahkan umatnya untuk berpuasa pada hari Assyuro dan mengirinya dengan puasa 1 hari sebelum dan sesudahnya. Hal ini bertujuan untuk menyelisihi umat Yahudi dan Nasrani yang hanya berpuasa pada hari ke-10. Keutamaanya akan dihapus dosa-dosa kecil di tahun sebelumnya (H.R. Muslim)
+f.	Puasa Sya’ban
+Puasa Sya’ban adalah puasa yang dilaksanakan pada bulan Sya’ban. Disunnahan memperbanyak puasa pada bulan ini karena bulan ini adalah bulan dimana semua amal diangkat kepada Robb (H.R. An-Nasa’i dan Abu Daud, Hasan)
+g.	Puasa pada bulan Harom atau bulan yang dimuliakan
+Puasa pada bulan Harom atau bulan yang dimuliakan. Bulan Harom terdiri dari bulan Dzulqodah, Dzulhijjah, Moharram, dan Rajab.
+h.	Puasa Senin dan Kamis
+Puasa Senin dan Kamis. Kedua hari tersebut adalah hari dimana amal ibadah manusia diangkat.
+i.	Puasa Dawud
+Puasa Dawud adalah puasa yang disukai Allah (H.R. Bukhori Muslim). Puasa ini dilakukan dengan berseling-seling yaitu satu hari berpuasa, maka besoknya tidak, kemudian berpuasa lagi, lalu besoknya tidak, begitu seterusnya.
+
+    </string>
+
+</resources>

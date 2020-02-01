@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "774420129018",
+    "firebase_url": "https://kajian-islam-7b0f8.firebaseio.com",
+    "project_id": "kajian-islam-7b0f8",
+    "storage_bucket": "kajian-islam-7b0f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774420129018:android:8ab65cea1bef59cc581543",
+        "android_client_info": {
+          "package_name": "com.example.aplikasi_sholat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774420129018-gcegkq4crmbs0d5hm0kl3u56nksr352n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjaUVmg_7mdBGOqSNuEHG_jkpJ2jpqozg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774420129018-gcegkq4crmbs0d5hm0kl3u56nksr352n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774420129018:android:4c7436d3369f5ece581543",
+        "android_client_info": {
+          "package_name": "kajian.islam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774420129018-gcegkq4crmbs0d5hm0kl3u56nksr352n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjaUVmg_7mdBGOqSNuEHG_jkpJ2jpqozg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774420129018-gcegkq4crmbs0d5hm0kl3u56nksr352n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/jadwalsholat">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bback"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Subuh"/>
+
+        <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="168dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Zuhur"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="238dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Ashar"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Maghrib"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="378dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:text="Isya"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

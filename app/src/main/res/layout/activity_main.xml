@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/homeyes">
+
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:weightSum="2"
+        android:id="@+id/satu"
+
+        >
+
+        <ImageView
+            android:id="@+id/kiblat"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/bkiblat"/>
+
+        <ImageView
+            android:id="@+id/jadwalsholat"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bjadwalsholat"/>
+
+        <ImageView
+            android:id="@+id/ibadah"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bibadah"/>
+
+        <ImageView
+            android:id="@+id/doaharian"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bdoaharian"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/hitungzakat"
+        android:layout_marginTop="10dp"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/bhitungzakat"/>
+
+    <ImageView
+        android:id="@+id/kajianislami"
+        android:layout_marginTop="10dp"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/bkajianislami" />
+
+    <ImageView
+        android:id="@+id/mengaji"
+        android:layout_marginTop="10dp"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/bmengaji"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="40dp"
+        android:weightSum="2">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bprofilee"/>
+
+    <ImageView
+        android:id="@+id/aboutus"
+        android:layout_width="20dp"
+        android:layout_marginLeft="260dp"
+        android:layout_height="20dp"
+        android:background="@drawable/baboutuss"/>
+
+    </LinearLayout>
+
+</LinearLayout>

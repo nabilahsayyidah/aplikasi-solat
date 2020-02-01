@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/doahariannew">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bback"/>
+
+
+
+        <ImageView
+            android:id="@+id/bangun"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Bangun Tidur"/>
+
+        <ImageView
+            android:id="@+id/sebelumtidur"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Sebelum Tidur"/>
+
+        <ImageView
+            android:id="@+id/bercermin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Bercermin"/>
+
+        <ImageView
+            android:id="@+id/sebelummakan"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Sebelum Makan"/>
+
+        <ImageView
+            android:id="@+id/sesudahmakan"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Sesudah Makan"/>
+
+        <ImageView
+        android:id="@+id/keluarrumah"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/img"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:text="Doa Keluar Rumah"/>
+
+            <ImageView
+                android:id="@+id/masukrumah"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="510dp"
+                android:background="@drawable/img"/>
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="515dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="30dp"
+                android:text="Doa Masuk Rumah"/>
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

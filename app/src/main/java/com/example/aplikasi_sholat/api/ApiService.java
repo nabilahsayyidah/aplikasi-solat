@@ -10,5 +10,5 @@ import retrofit2.http.GET;
 public interface ApiService {
 
     @GET("padang.json")
-    Call<ResponseBody> getJadwal();
+    Call<Modul> getJadwal();
 }

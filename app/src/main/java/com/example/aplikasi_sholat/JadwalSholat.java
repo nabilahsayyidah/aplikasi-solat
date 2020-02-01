@@ -12,12 +12,15 @@ import com.example.aplikasi_sholat.api.ApiService;
 import com.example.aplikasi_sholat.api.ApiUrl;
 import com.example.aplikasi_sholat.model.Item;
 import com.example.aplikasi_sholat.model.Modul;
+import com.example.aplikasi_sholat.model.ResponseItem;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.List;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -28,8 +31,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class JadwalSholat extends AppCompatActivity {
 
-    private TextView tv_lokasi_tempat, tv_matahari, tv_subuh, tv_zuhur, tv_ashar,
-            tv_maghrib, tv_isya;
+    TextView tv_lokasi_tempat, tv_matahari, tv_subuh, tv_zuhur, tv_ashar, tv_maghrib, tv_isya;
     private FloatingActionButton fab_refresh;
 
 
@@ -44,6 +46,7 @@ public class JadwalSholat extends AppCompatActivity {
         tv_ashar = findViewById(R.id.tv_ashar);
         tv_maghrib = findViewById(R.id.tv_maghrib);
         tv_isya = findViewById(R.id.tv_isya);
+        tv_zuhur = findViewById(R.id.tv_zuhur);
         fab_refresh = findViewById(R.id.fab_refresh);
 
         getJadwal();
@@ -63,33 +66,27 @@ public class JadwalSholat extends AppCompatActivity {
                 .build();
 
         ApiService apiService = retrofit.create(ApiService.class);
-        Call<ResponseBody> call = apiService.getJadwal();
+        Call<Modul> call = apiService.getJadwal();
 
-        call.enqueue(new Callback<ResponseBody>() {
+        call.enqueue(new Callback<Modul>() {
             @Override
-            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+            public void onResponse(Call<Modul> call, Response<Modul> response) {
                 if (response.isSuccessful()){
-
-                    try{
-                        JSONObject jsonRESULTS = new JSONObject(response.body().string());
-
-                        tv_subuh.setText(jsonRESULTS.getJSONObject("items").getString("fajr"));
-                        tv_zuhur.setText(jsonRESULTS.getJSONObject("items").getString("dhuhr"));
-                        tv_ashar.setText(jsonRESULTS.getJSONObject("items").getString("asr"));
-                        tv_maghrib.setText(jsonRESULTS.getJSONObject("items").getString("maghrib"));
-                        tv_isya.setText(jsonRESULTS.getJSONObject("items").getString("isha"));
-                    } catch (JSONException e){
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    tv_lokasi_tempat.setText(response.body().getState());
+                    final List<Item> items = response.body().getItems();
+                    tv_matahari.setText(items.get(0).getShurooq());
+                    tv_subuh.setText(items.get(0).getFajr());
+                    tv_zuhur.setText(items.get(0).getDhuhr());
+                    tv_ashar.setText(items.get(0).getAsr());
+                    tv_matahari.setText(items.get(0).getMaghrib());
+                    tv_isya.setText(items.get(0).getIsha());
                 } else {
 
                 }
             }
 
             @Override
-            public void onFailure(Call<ResponseBody> call, Throwable throwable) {
+            public void onFailure(Call<Modul> call, Throwable throwable) {
                 Toast.makeText(getApplicationContext(), "No Internet Connection"+ throwable, Toast.LENGTH_SHORT).show();
             }
         });
